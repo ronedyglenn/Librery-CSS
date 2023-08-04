@@ -1,0 +1,6 @@
+/*le cursor va se changer en doigt qui pointe à chaque fois qu'il passera le h1. Appliquer la propriété sur le ou lees éléments
+que vous ciblez.*/
+
+h1{
+    cursor:pointer;
+}

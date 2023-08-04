@@ -1,0 +1,8 @@
+/*on appliquera la propriété sur l'élément selecteur type li*/
+*{
+    box-sizing: border-box;
+}
+
+li{
+    list-style-image: url(img/3d.png);/*prendre de petites icons ou images pour meilleur rendu*/
+}

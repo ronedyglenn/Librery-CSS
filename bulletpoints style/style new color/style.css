@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+/*le selector c'est ul pour retirer les puces*/
+
+ul{
+    list-style:none;
+}
+
+/*Après quoi utiliser le pseudoclass ::before et le combiné avec li*/
+
+ul li::before{
+    content: "\2022"; /*pour que les puces s'affichent écrire le code \2022 entre griffes et ensuite appliquer la couleur*/
+    color: cornflowerblue;
+    display: inline-block;/*pour ajouter de l'espace commencer par appliquer un display:inline-block*/
+    width: 1em; /*puis appliquer un width*/
+}
+

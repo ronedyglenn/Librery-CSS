@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/*ici l'image va zoomer lorsque le cursor passera dessus*/
+img{
+    width: 500px;
+    transition: 2s;
+}
+
+img:hover{
+    transform: scale(1.07);
+}
+
+
+/*ici l'image va dézoomer lorsque le cursor passera dessus*/
+.img2{
+    transition: 2s;
+}
+
+.img2:hover{
+    transform: scale(0.7);
+}

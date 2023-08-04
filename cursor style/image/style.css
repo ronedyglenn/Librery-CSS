@@ -1,0 +1,5 @@
+/*Pour que ça marche sur toute la page, utiliser la propriété cursor à l'élément html*/
+
+html{
+    cursor: url('img/bee_resized.png'), none;/*pour customiser le cursor la taille de l'image ne doit pas dépasser 122px*/
+}

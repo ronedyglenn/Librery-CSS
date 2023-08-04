@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/*ici l'effet d'opacité va disparaître lorsque le cursor passera sur la photo*/
+img{
+    width: 600px;
+    opacity: 50%;
+}
+
+img:hover{
+    opacity: 100%;
+    transition: all 1s;
+}
+
+/*ici l'effet d'opacité va apparaître lorsque le cursor passera sur la photo*/
+.img2{
+    opacity: 100%;
+}
+
+.img2:hover{
+    opacity: 50%;
+}
